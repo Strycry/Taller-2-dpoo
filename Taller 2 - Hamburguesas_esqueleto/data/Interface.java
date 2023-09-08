@@ -108,11 +108,11 @@ public generarTextoFactura(): String
 
 // INTERFACE PRODUCTO 
 
-public getPrecio(): int 
-
-public getNombre(): String 
-
-public generarTextoFactura (): String
+	public getPrecio(): int 
+	
+	public getNombre(): String 
+	
+	public generarTextoFactura (): String
 
 
 // PEDIDO
@@ -162,6 +162,6 @@ public getPrecio(): int
 
 
 public generarTextoFactura(): String
-public getNombre(): string ^
+public void guardarFactura (File archivo)
 }
 

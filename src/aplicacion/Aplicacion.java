@@ -83,7 +83,7 @@ public class Aplicacion {
 				+ "21- agua cristal con gas;5000\r\n"
 				+ "22- gaseosa;5000");
 		
-		ejecutarOpcion (numero);
+		ejecutarOpcion(numero);
 	
 		}
 	
@@ -97,27 +97,69 @@ public class Aplicacion {
 			pedido.add("corral-14000");
 		}
 		if (numero == 2) {
-			pedido.add("corral queso - 16000");
+			pedido.add("corral queso-16000");
 		}
 		if (numero == 3) {
-			pedido.add("corral pollo - 15000");
+			pedido.add("corral pollo-15000");
 		}
 		if (numero == 4) {
-			pedido.add("corralita - 13000");
+			pedido.add("corralita-13000");
 		}
 		if (numero == 5) {
-			pedido.add("todoterreno - 25000");
+			pedido.add("todoterreno-25000");
 		}
 		if (numero == 6) {
-			pedido.add("1/2 libra - 25000");
+			pedido.add("1/2 libra-25000");
 		}
 		if (numero == 7) {
-			
+			pedido.add("especial-24000");
 		}
-	}
-	
-	
-}
+		if (numero == 8) {
+			pedido.add("casera-23000");
+		}
+		if (numero == 9) {
+			pedido.add("mexicana-22000");
+		}
+		if (numero == 10) {
+			pedido.add("criolla-22000");
+		}
+		if (numero == 11) {
+			pedido.add("especial-24000");
+		}
+		if (numero == 12) {
+			pedido.add("hawaina-20000");
+		}
+		if (numero == 13) {
+			pedido.add("wrap de polllo-15000");
+		}
+		if (numero == 14) {
+			pedido.add("wrap de lomo-22000");
+		}
+		if (numero == 15) {
+			pedido.add("ensalada mexicana-20900");
+		}
+		if (numero == 16) {
+			pedido.add("papas medianas-5500");
+		}
+		if (numero == 17) {
+			pedido.add("papas grandes-6900");
+		}
+		if (numero == 18) {
+			pedido.add("papas en casco medianas-5500");
+		}
+		if (numero == 19) {
+			pedido.add("papas en casco grandes-6900");
+		}
+		if (numero == 20) {
+			pedido.add("agua cristal sin gas-5000");
+		}
+		if (numero == 21) {
+			pedido.add("agua cristal sin gas-5000");
+		}
+		if (numero == 22) {
+			pedido.add("gaseosa-5000");
+		}
+}}
 
 
 

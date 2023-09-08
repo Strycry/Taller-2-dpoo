@@ -1,10 +1,12 @@
 package Logica;
 
-public class ProductoAjustado implements Producto{
+import java.io.File;
+
+public class Combo implements Producto {
 	
-	public ProductoAjustado (ProductoMenu base) {
-	
-	}
+	private double descuento;
+
+	private String nombreCombo;
 
 	@Override
 	public int getPrecio() {
@@ -23,5 +25,20 @@ public class ProductoAjustado implements Producto{
 		// TODO Auto-generated method stub
 		return null;
 	}
+	
 
+	public Combo(String nombre, double descuento) {
+		
+	}
+
+
+	public void agregarItemACombo(Producto itemCombo) {
+		
+	}
+
+
+	public void guardarFactura (File archivo) {
+		
+	}
+	
 }
